@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    }
+ html{
+        font-size: 62.5%;
+       
+     
+    }
+    header{
+        font-family: 'Inconsolata', monospace;
+        font-size: 20px;
+        line-height: 25.18px;
+        margin: 20px;
+        
+    }
+    .container{
+        display:flex ;
+        flex-direction: row;
+        place-content: center;
+        margin-top: 150px;
+
+    }
+    .espantapajaro{
+        
+       margin-right: 100px; 
+       
+      
+    
+
+}
+
+.espantapajaro img{
+    max-width: 100%;
+    width: 53.92rem;
+    height: 41.42rem;
+   
+    
+    
+    
+}
+.descripcion{
+width: 350px;
+flex-shrink: 0;
+
+}
+.descripcion h1{
+    
+    color: var(--gray-1, #333);
+    font-size: 48px;
+    font-family: Space Mono;
+    font-weight: 700;
+    letter-spacing: -1.68px;
+}
+.descripcion p{
+ width: 328px;
+color: var(--gray-2, #4F4F4F);
+font-size: 18px;
+font-family: Space Mono;
+letter-spacing: -0.63px;
+margin-top: 30px;
+}
+
+.btn button{
+    width: 216px;
+height: 68px;
+flex-shrink: 0;
+background: var(--gray-1, #333);
+color: #FFF;
+font-size: 14px;
+font-family: Space Mono;
+font-weight: 700;
+letter-spacing: -0.49px;
+text-transform: uppercase;
+margin: 66px 20px 0 20px;
+
+}
+
+footer {
+border-radius: 8px;
+background: #FFF;
+position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px; /* Ajusta la altura del footer según tus necesidades */
+ 
+}
+footer p{
+    color: #BDBDBD;
+text-align: center;
+font-size: 14px;
+font-family: Montserrat;
+font-weight: 500;
+}
+@media only screen and (max-width: 720px) {
+   
+    .container {
+        flex-direction: column;
+        margin: 80px 10px;
+    }
+  .espantapajaro {
+ 
+
+  
+    
+}
+    
+     
+  
+  .espantapajaro img{
+    width: 286.83px;
+height: 220.352px;
+  flex-shrink: 0;
+  }
+    
+}
